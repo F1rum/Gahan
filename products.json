@@ -1,8 +1,50 @@
 [
     {
-      "Name": "Товар 1",
-      "Price": 99.99,
-      "NewPrice": 98.99,
+      "Name": "Банка кабачковой икры",
+      "Price": 180,
+      "NewPrice": 90,
       "Img": "https://cdn.tarkov-market.app/images/items/a3cb95b9-addd-496e-8fcf-971e085fa19a_sm.png?r=1739359525637"
+    },
+    {
+      "Name": "Палка говяжьей колбасы",
+      "Price": 479.99,
+      "NewPrice": 240,
+      "Img": "https://cdn.tarkov-market.app/images/items/849d073b-0b35-4d9b-8090-9015ec7322d4_sm.png?r=17393"
+    },
+    {
+      "Name": "Банка тушеной говядины",
+      "Price": 200,
+      "NewPrice": 180,
+      "Img": "https://cdn.tarkov-market.app/images/items/60036b01-88aa-4653-955c-24e303188e62_sm.png?r=1739359529059"
+    },
+    {
+      "Name": "Банка газировки TarCola",
+      "Price": 150,
+      "NewPrice": 130,
+      "Img": "https://cdn.tarkov-market.app/images/items/d7bcfca7-6dca-455d-bf0a-472df37a900f_sm.png?r=1739359535988"
+    },
+    {
+      "Name": "Банка зеленого горошка",
+      "Price": 80,
+      "NewPrice": 50,
+      "Img": "https://cdn.tarkov-market.app/images/items/e434d99a-7a6d-464b-9f0c-650faa68dc8f_sm.png?r=1739359522230"
+    },
+    {
+      "Name": "Шоколад 'Аленка'",
+      "Price": 130,
+      "NewPrice": 110,
+      "Img": "https://cdn.tarkov-market.app/images/items/f0d412b4-b4e5-42a2-8efd-084e46d2e7f1_sm.png?r=1739359530894"
+    },
+    {
+      "Name": "Пакет яблочного сока",
+      "Price": 200,
+      "NewPrice": 199,
+      "Img": "https://cdn.tarkov-market.app/images/items/6cb90d05-650c-498a-ab34-5b01abb4d145_sm.png?r=1739359779392"
+    },
+    {
+      "Name": "Пачка овсяных хлопьев",
+      "Price": 300,
+      "NewPrice": 100,
+      "Img": "https://cdn.tarkov-market.app/images/items/93bc90cc-99a2-4fc0-bd63-9d60f07181cf_sm.png?r=1739359777689"
     }
 ]
