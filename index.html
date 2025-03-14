@@ -61,10 +61,10 @@
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
-                        <img src="${item.Img}">
-                        <h2>${item.Name}</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: ${item.Price} руб.</p>
-                        <p>Новая цена: ${item.NewPrice} руб.</p>
+                        <img class="ItImg"src="${item.Img}">
+                        <h2 class="ItName">${item.Name}</h2>
+                        <p class="ItOld"style="text-decoration:line-through;">Страрая цена: ${item.Price} руб.</p>
+                        <p class="ItNew">Новая цена: ${item.NewPrice} руб.</p>
                     `;
                     catalog.appendChild(card);
                 });
@@ -85,46 +85,47 @@
     </div>
     <div id="catalog">
         <h1 id="Prod">Товары по акции</h1>
-    <div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/a3cb95b9-addd-496e-8fcf-971e085fa19a_sm.png?r=1739359525637">
-                        <h2>Банка кабачковой икры</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 180 руб.</p>
-                        <p>Новая цена: 90 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/849d073b-0b35-4d9b-8090-9015ec7322d4_sm.png?r=17393">
-                        <h2>Палка говяжьей колбасы</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 479.99 руб.</p>
-                        <p>Новая цена: 240 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/60036b01-88aa-4653-955c-24e303188e62_sm.png?r=1739359529059">
-                        <h2>Банка тушеной говядины</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 200 руб.</p>
-                        <p>Новая цена: 180 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/d7bcfca7-6dca-455d-bf0a-472df37a900f_sm.png?r=1739359535988">
-                        <h2>Банка газировки TarCola</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 150 руб.</p>
-                        <p>Новая цена: 130 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/e434d99a-7a6d-464b-9f0c-650faa68dc8f_sm.png?r=1739359522230">
-                        <h2>Банка зеленого горошка</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 80 руб.</p>
-                        <p>Новая цена: 50 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/f0d412b4-b4e5-42a2-8efd-084e46d2e7f1_sm.png?r=1739359530894">
-                        <h2>Шоколад 'Аленка'</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 130 руб.</p>
-                        <p>Новая цена: 110 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/6cb90d05-650c-498a-ab34-5b01abb4d145_sm.png?r=1739359779392">
-                        <h2>Пакет яблочного сока</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 200 руб.</p>
-                        <p>Новая цена: 199 руб.</p>
-                    </div><div class="card">
-                        <img src="https://cdn.tarkov-market.app/images/items/93bc90cc-99a2-4fc0-bd63-9d60f07181cf_sm.png?r=1739359777689">
-                        <h2>Пачка овсяных хлопьев</h2>
-                        <p style="text-decoration:line-through;">Страрая цена: 300 руб.</p>
-                        <p>Новая цена: 100 руб.</p>
-                    </div></div>
+        <div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/a3cb95b9-addd-496e-8fcf-971e085fa19a_sm.png?r=1739359525637">
+            <h2 class="ItName">Банка кабачковой икры</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 180 руб.</p>
+            <p class="ItNew">Новая цена: 90 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/849d073b-0b35-4d9b-8090-9015ec7322d4_sm.png?r=17393">
+            <h2 class="ItName">Палка говяжьей колбасы</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 479.99 руб.</p>
+            <p class="ItNew">Новая цена: 240 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/60036b01-88aa-4653-955c-24e303188e62_sm.png?r=1739359529059">
+            <h2 class="ItName">Банка тушеной говядины</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 200 руб.</p>
+            <p class="ItNew">Новая цена: 180 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/d7bcfca7-6dca-455d-bf0a-472df37a900f_sm.png?r=1739359535988">
+            <h2 class="ItName">Банка газировки TarCola</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 150 руб.</p>
+            <p class="ItNew">Новая цена: 130 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/e434d99a-7a6d-464b-9f0c-650faa68dc8f_sm.png?r=1739359522230">
+            <h2 class="ItName">Банка зеленого горошка</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 80 руб.</p>
+            <p class="ItNew">Новая цена: 50 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/f0d412b4-b4e5-42a2-8efd-084e46d2e7f1_sm.png?r=1739359530894">
+            <h2 class="ItName">Шоколад 'Аленка'</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 130 руб.</p>
+            <p class="ItNew">Новая цена: 110 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/6cb90d05-650c-498a-ab34-5b01abb4d145_sm.png?r=1739359779392">
+            <h2 class="ItName">Пакет яблочного сока</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 200 руб.</p>
+            <p class="ItNew">Новая цена: 199 руб.</p>
+        </div><div class="card">
+            <img class="ItImg" src="https://cdn.tarkov-market.app/images/items/93bc90cc-99a2-4fc0-bd63-9d60f07181cf_sm.png?r=1739359777689">
+            <h2 class="ItName">Пачка овсяных хлопьев</h2>
+            <p class="ItOld" style="text-decoration:line-through;">Страрая цена: 300 руб.</p>
+            <p class="ItNew">Новая цена: 100 руб.</p>
+        </div>
+    </div>
 </body>
 </html> 
